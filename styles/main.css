@@ -2,6 +2,7 @@
 @import url('./header.css');
 @import url('./task-creator.css');
 @import url('./activites.css');
+@import url('./list.css');
 
 * {
   margin: 0;
