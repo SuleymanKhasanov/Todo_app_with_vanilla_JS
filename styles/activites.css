@@ -10,7 +10,22 @@
   font-weight: 700;
 }
 
+.activities__done,
+.activities__total-task {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .activities__done-text {
   color: var(--purple);
   font-weight: 700;
+}
+
+.counter {
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-weight: 700;
+  background-color: var(--system-dark-helpers-element-bg);
+  font-size: 12px;
 }

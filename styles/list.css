@@ -9,4 +9,12 @@
   padding: 16px 52px;
   background-color: var(--system-dark-widgets-bg);
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-list__item.inactive {
+  text-decoration: line-through;
+  color: gray;
 }
