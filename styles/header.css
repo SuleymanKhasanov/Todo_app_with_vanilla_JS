@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--system-dark-contrast-bg);
+  height: 200px;
+}
+
+.header__logo {
+  text-align: center;
+}
+
+.header__logo-image {
+  margin-top: 72px;
+}

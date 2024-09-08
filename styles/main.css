@@ -1,0 +1,40 @@
+@import url('./variables.css');
+@import url('./header.css');
+@import url('./task-creator.css');
+@import url('./activites.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--system-bark-bg);
+  font-family: 'Inter', sans-serif;
+  font-size: var(--standart-font-size);
+  color: var(--standart-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 736px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 74px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}

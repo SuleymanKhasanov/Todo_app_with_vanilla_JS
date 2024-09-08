@@ -1,0 +1,40 @@
+.task-creator {
+  position: absolute;
+  top: 173px;
+}
+
+.task-creator__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-creator__input {
+  padding: 16px;
+  width: 638px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--system-dark-widgets-bg);
+  outline: none;
+  color: var(--standart-text-color);
+}
+
+.task-creator__btn {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--system-akcent-elements-color);
+  color: var(--standart-text-color);
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.task-creator__btn:active {
+  scale: 0.9;
+}
+
+@media screen and (max-width: 600px) {
+  .task-creator__input {
+    width: 300px;
+  }
+}

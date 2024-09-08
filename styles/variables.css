@@ -1,0 +1,14 @@
+:root {
+  --system-bark-bg: #1a1a1a;
+  --system-dark-contrast-bg: #0d0d0d;
+  --system-dark-widgets-bg: #262626;
+  --system-dark-helpers-element-bg: #333333;
+  --syystem-dark-disabled-and-trash-color: #808080;
+  --system-akcent-elements-color: #1e6f9f;
+  --blue: #4ea8de;
+  --purple-dark: #5e60ce;
+  --purple: #8284fa;
+  --danger-or-alert-color: #e25858;
+  --standart-text-color: #f2f2f2;
+  --standart-font-size: 14px;
+}

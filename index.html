@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+      integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy"
+      crossorigin="anonymous"
+    />
+    <title>Todo app</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./image/Logo.svg"
+          alt="Todo-logo"
+          class="header__logo-image"
+        />
+      </div>
+    </header>
+    <div class="container">
+      <div class="task-creator">
+        <form action="#" class="task-creator__form" id="form">
+          <input
+            type="text"
+            placeholder="Write new task"
+            class="task-creator__input"
+            id="input"
+          />
+          <button class="task-creator__btn" id="button">
+            Submit +
+          </button>
+        </form>
+      </div>
+      <main class="main">
+        <div class="activites">
+          <div class="activities__total-task">
+            <span class="activities__total-task-text">
+              Total tasks
+            </span>
+            <div class="counter"></div>
+          </div>
+          <div class="activities__done">
+            <span class="activities__done-text">Done tasks</span>
+            <div class="counter"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./script/main.js" type="module" defer></script>
+  </body>
+</html>
